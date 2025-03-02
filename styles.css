@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-decoration: underline;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 50px;
+    height: 65px;
+    width: 350px;
+    background-color: rgb(206, 206, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    font-size: 32px;
+    overflow: hidden;
+}
+
+.screen p {
+    margin-right: 10px;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+.btn {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    column-gap: 20px;
+}
+
+.btn button {
+    height: 65px;
+    width: 65px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.btn button:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.redBtn {
+    background-color: brown;
+    color: rgb(230, 229, 229);
+}
+
+.btn .redBtn:hover {
+    background-color: rgb(128, 30, 30);
+}
+
+#egal {
+    margin: 50px;
+    height: 65px;
+    width: 320px;
+    margin-top: 20px;
+    background-color: rgb(35, 126, 187);
+    color: rgb(230, 229, 229);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: 0; 
+    font-size: 32px;
+}
+
+#egal:hover {
+    background-color: rgb(25, 102, 165);
+}
